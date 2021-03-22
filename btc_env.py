@@ -1,11 +1,4 @@
 """BTC trading environment. Trains on BTC price history to learn to buy/sell/hold.
-
-This is an environment tailored towards TensorForce, not OpenAI Gym. Gym environments are
-a standard used by many projects (Baselines, Coach, etc) and so would make sense to use; and TForce is compatible with
-Gym envs. It's just that there's hoops to go through converting a Gym env to TForce, and it was ugly code. I actually
-had it that way, you can search through Git if you want the Gym env; but one day I decided "I'm not having success with
-any of these other projects, TForce is the best - I'm just gonna stick to that" and this approach was cleaner.
-
 """
 
 import random, time, requests, pdb, gdax, math, pickle, os, shutil, copy
