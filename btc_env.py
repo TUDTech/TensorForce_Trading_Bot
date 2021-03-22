@@ -6,8 +6,6 @@ Gym envs. It's just that there's hoops to go through converting a Gym env to TFo
 had it that way, you can search through Git if you want the Gym env; but one day I decided "I'm not having success with
 any of these other projects, TForce is the best - I'm just gonna stick to that" and this approach was cleaner.
 
-I actually do want to try NervanaSystems/Coach, that one's new since I started developing. Will require converting this
-env back to Gym format. Anyone wanna give it a go?
 """
 
 import random, time, requests, pdb, gdax, math, pickle, os, shutil, copy
