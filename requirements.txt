@@ -1,5 +1,5 @@
 Flask==0.12.2
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 gdax==1.0.6
 GPy==1.8.4
 -e git+https://github.com/SheffieldML/GPyOpt.git@fff3f65c4e76bed69ce6dc55c459a5d37db5b243#egg=GPyOpt
